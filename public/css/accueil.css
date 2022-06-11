@@ -1,0 +1,218 @@
+body{
+    background: #1d1d26;
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.nav_bar-container{
+    
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.nav_bar-content{
+    margin: 0 150px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,.right{
+    align-items: center;
+    display: flex;
+}
+
+.right>a{
+    font-size:16px;
+    padding: 10px 20px;
+    /* background:blue; */
+    color: white;
+    text-decoration:none;
+    margin: 0 5px;
+}
+
+.link-inscription{
+    
+    border: 2px solid #2e2e3b;
+    border-radius:15px;
+    transition: 0.25s;
+}
+
+.link-inscription:hover{
+    box-shadow: inset 0 -3.25em 0 0 #2e2e3b;
+}
+
+main{
+    width: 100%;
+    height : 70%;
+    padding-top: 130px;
+    color:white;
+    display:flex;
+    align-items:center;
+    margin: 0;
+    flex-direction:column;
+}
+.textcontainer{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    z-index: 7;
+   
+}
+.titleAccueil{
+    font-size:48px;
+    position: relative;
+}
+
+.point{
+    vertical-align: baseline;
+    display: inline-block;
+    background: rgb(195,69,214);
+    border-radius: 50%;
+    height:10px;
+    width: 10px;
+    margin: 0;
+    background: linear-gradient(30deg, rgba(195,69,214,1) 0%, rgba(252,121,157,1) 50%, rgba(254,152,130,1) 100%);
+    
+}
+.descriptionAccueil{
+    display :inline-block;
+    text-align: center;
+    color: #adadc1;
+}
+
+.button-container{
+    display: flex;
+}
+
+.link-commencer,.link-plus{
+    /* color:white; */
+    padding: 15px 25px;
+    /* border: 1px solid red; */
+    margin: 40px 15px;
+    
+}
+.link-commencer,.link-plus{
+    
+    position:relative;
+    width: auto;
+    color:rgb(250, 244, 244);
+    text-decoration:none;
+    border-radius:15px;
+    text-align:center;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+    
+}
+
+
+.link-commencer{
+    background: linear-gradient(20deg, rgba(195,69,214,1) 0%, rgba(252,121,157,1) 50%, rgba(254,152,130,1) 100%);
+    -webkit-box-shadow: 0px 6px 0px rgb(161, 56, 177,1);
+    -moz-box-shadow: 0px 6px 0px rgb(161, 56, 177,1);
+    box-shadow: 0px 6px 0px rgb(161, 56, 177);
+}
+.link-commencer:active{
+    -webkit-box-shadow: 0px 2px 0px rgb(161, 56, 177,1);
+    -moz-box-shadow: 0px 2px 0px rgb(161, 56, 177,1);
+    box-shadow: 0px 2px 0px rgb(161, 56, 177);
+    position:relative;
+    top:2px;
+}
+
+.link-plus{
+    background: #30303d;
+  
+    -webkit-box-shadow: 0px 6px 0px #24242e;
+    -moz-box-shadow: 0px 6px 0px #24242e;
+    box-shadow: 0px 6px 0px #24242e;
+}
+
+.link-plus:active{
+    background: #30303d;
+   
+    -webkit-box-shadow: 0px 2px 0px #24242e;
+    -moz-box-shadow: 0px 2px 0px #24242e;
+    box-shadow: 0px 2px 0px #24242e;
+    position:relative;
+    top:2px;
+}
+
+.circle{
+   
+    vertical-align: baseline;
+    display: inline-block;
+    margin: 0; 
+    
+}
+
+.circle-gradient{
+    z-index: 2;
+    background:radial-gradient(circle at 120px 130px, rgb(252, 190, 176) 20%, #b72eb6 70%);
+    transform: rotate(-90deg);
+}
+
+.circle-black{
+    z-index: 2;
+    background:radial-gradient(circle at 100px 100px, #313140 20%, #111117 70%);
+    transform: rotate(-90deg);
+}
+.circle1{
+    bottom: 6%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    left: 10%;
+    position : absolute;
+    border-radius: 50%;
+    height:150px;
+    width: 150px;
+}
+
+.circle2{
+    top: 15%;
+    left: 7%;
+    position : absolute;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.circle3{
+    bottom: 3%;
+    right: 12%;
+    position : absolute;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.circle4{
+    top: 12%;
+    right: 2%;
+    position : absolute;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.main {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
+

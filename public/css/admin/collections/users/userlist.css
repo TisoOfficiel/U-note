@@ -1,0 +1,357 @@
+.container{
+    background: #ebe7df;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.menu_vertical-content{
+    width: auto;
+    padding-top: 3em;
+    padding-bottom: 40px;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.menu_vetical{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.profile_picture-content{
+    margin-left: 15px;
+    background: rgb(212, 208, 201);
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_picture-content>i{
+    font-size: 56px;
+}
+
+.admin_info-content{
+   
+   padding: 0 15px;
+}
+.admin_info-content>h3{
+    color: rgb(3, 0, 30);
+    font-size: 24px;
+    
+    margin: 0;
+    margin-top: 20px;
+
+}
+.admin_info-content>p{
+    font-size: 16px;
+    color: rgb(3, 0, 30);
+    font-weight: 600;
+    margin: 0;
+    
+}
+
+.create_user-content{
+    margin-top: 50px;
+    cursor: pointer;
+    color: #1994d7;
+    text-decoration: none;
+    display: block;
+}
+
+
+.create{
+    padding: 0;
+    border: none;
+    color: #FFF;
+    background: #3494FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.create:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.link-content{
+    
+    position: absolute;
+    top: 40%;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+}
+
+.link-group{
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    transition: 0.5s;
+}
+.link-group>p{
+    margin: 0;
+    color: rgb(3, 0, 30);
+    font-size: 14px;
+    font-weight: 600;
+}
+.link-group>i{
+     color: #b3aea7;
+}
+.link-group:hover{
+    border-radius: 10px;
+    background:#d2d1cf;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+div.active{
+    border-radius: 10px;
+    background: #f1f1f1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.link-group>i{
+    margin: 0 15px;
+}
+.logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0;
+    
+    text-decoration: none;
+}
+.logout:hover >p,.logout:hover>i{
+    color: rgb(52, 49, 43);
+    transition: 0.5s;
+    
+}
+.logout>p{
+    transition: 0.5s;
+    color:#b3aea7;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.logout>i{
+    transition: 0.5s;
+    color: #b3aea7;
+}
+.user-list{
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    padding: 40px 40px;
+    background: rgb(255, 253, 250);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.user-list-header{
+    
+    width: 100%;
+    height:40px;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-left{
+    display: flex;
+
+}
+.link:first-child{
+    margin-right: 15px;
+}
+.container-left>a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.container-left>.active{
+     border-bottom: 4px solid #3494FF;
+}
+.container-right{
+    background: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.seach_bar{
+    height: 100%;
+    border: none;
+    font-size: 18px;
+}
+
+.container-right>i{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.user-list>h1{
+    font-size: 32px;
+}
+
+.container-filter-count{
+    border-bottom: 2px solid rgb(212, 212, 212);;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    color: #b3aea7;
+}
+
+.count{
+    font-size: 18px;
+    color: #b452a3;
+}
+
+.user-container{
+    margin-top: 30px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+   
+    background: white;
+    border-radius: 15px;
+    transition: 0.5s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.user-container> p{
+    margin: 0;
+}
+
+.user-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.01);
+    transition: 0.5s;
+}
+.pp-container{
+    border: 1px solid rgb(192, 192, 192);
+    height: 80px;
+    width: 80px;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-left: 15px;
+}
+
+p{
+    margin: 9px;
+}
+.pp-container>i{
+    font-size: 48px;
+    color: rgb(3, 0, 30);
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.type{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    width: 20%;
+}
+.more-option{
+    width: 5%;
+}
+.more-option{
+    margin-right: 15px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more-option>a{
+    text-decoration: none;
+    color: rgb(3, 0, 30);
+}
+
+.admin{
+    background: rgb(255, 0, 60);
+    color: white;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+.edit>i,.delete>i{
+    font-size: 30px;
+}
+
+.edit>i{
+    
+    color: #3494FF;
+}
+
+
+@media screen and (max-width: 1024px){
+    
+    .menu_vertical-content{
+        display: none;
+    }
+    .user-list{
+/* 
+        width: calc( 100% - 30px);
+        max-width: 100%; */
+        padding: 40px 40px; 
+    }
+    
+}
